@@ -40,10 +40,10 @@ function Navbar() {
     }
   }
   return (
-    <nav className="navbar navbar-expand-lg bord blur">
+    <nav className="navbar navbar-expand-lg bord blur" style={{minHeight: 60}}>
       <div className="container o-hidden">
-        <a className="logo icon-img-100" href="#">
-          <img src="/assets/imgs/logo-light.png" alt="logo" />
+        <a className="logo icon-img-100" href="/">
+          <img src="/assets/imgs/Yawar-logo.png" alt="logo" />
         </a>
 
         <button
@@ -66,7 +66,7 @@ function Navbar() {
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav">
-            <li
+            {/* <li
               onMouseLeave={handleDropdownMouseLeave}
               onMouseMove={handleDropdownMouseMove}
               className="nav-item dropdown"
@@ -268,7 +268,7 @@ function Navbar() {
               <a className="nav-link" href="/page-contact">
                 <span className="rolling-text">Contact Us</span>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
 

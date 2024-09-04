@@ -37,7 +37,7 @@ export default function Home() {
           <main className="main-bg o-hidden">
             <Header />
             <Contact />
-            <Map />
+            {/* <Map /> */}
           </main>
           <Footer />
         </div>

@@ -4,23 +4,23 @@ function Footer() {
   return (
     <footer className="clean-footer crev">
       <div className="container pb-40 pt-40 ontop">
-        <div className="row justify-content-between">
+        <div className="row justify-content-between" style={{marginBottom: '5%'}}>
           <div className="col-lg-2">
             <div className="logo icon-img-100 md-mb80">
-              <img src="/assets/imgs/logo-light.png" alt="" />
+              <img src="/assets/imgs/Yawar-logo.png" alt="" />
             </div>
           </div>
           <div className="col-lg-4">
             <div className="column md-mb50">
               <h6 className="sub-title mb-30">Contact</h6>
-              <h6 className="p-color fw-400">
+              {/* <h6 className="p-color fw-400">
                 5919 Trussville Crossings <br /> Pkwy, Birmingham
-              </h6>
+              </h6> */}
               <h6 className="mt-30 mb-15">
-                <a href="#0">Hello@webfolio.com</a>
+                <a href="#0">yawarshah.dev@gmail.com</a>
               </h6>
               <a href="#0" className="underline">
-                <span className="fz-22 main-color">+2 456 (343) 24 45</span>
+                <span className="fz-22 main-color">+92 332 9262125</span>
               </a>
             </div>
           </div>
@@ -75,18 +75,6 @@ function Footer() {
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-        <div className="pt-30 pb-30 mt-80 bord-thin-top">
-          <div className="text-center">
-            <p className="fz-14">
-              © 2024 Webfolio is Proudly Powered by{' '}
-              <span className="underline main-color">
-                <a href="https://themeforest.net/user/UiCamp" target="_blank">
-                  UiCamp
-                </a>
-              </span>
-            </p>
           </div>
         </div>
       </div>

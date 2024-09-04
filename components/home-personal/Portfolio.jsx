@@ -52,14 +52,14 @@ function Portfolio() {
         <div className="sec-head mb-80">
           <div className="d-flex align-items-center">
             <div>
-              <span className="sub-title main-color mb-5">Our Portfolio</span>
+              <span className="sub-title main-color mb-5">My Portfolio</span>
               <h3 className="fw-600 fz-50 text-u d-rotate wow">
                 <span className="rotate-text">
                   Selected <span className="fw-200">Works.</span>
                 </span>
               </h3>
             </div>
-            <div className="ml-auto vi-more">
+            {/* <div className="ml-auto vi-more">
               <a
                 href="/portfolio-grid"
                 className="butn butn-sm butn-bord radius-30"
@@ -67,7 +67,7 @@ function Portfolio() {
                 <span>View All</span>
               </a>
               <span className="icon ti-arrow-top-right"></span>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="cards">
@@ -91,11 +91,6 @@ function Portfolio() {
                       We’re a full stack firm that can help you from strategy to
                       launch, and anywhere in between.
                     </p>
-                    <a href="/project-details" className="underline mt-15">
-                      <span className="text main-color sub-title">
-                        View Details <i className="ti-arrow-top-right"></i>
-                      </span>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -126,11 +121,6 @@ function Portfolio() {
                       We’re a full stack firm that can help you from strategy to
                       launch, and anywhere in between.
                     </p>
-                    <a href="/project-details" className="underline mt-15">
-                      <span className="text main-color sub-title">
-                        View Details <i className="ti-arrow-top-right"></i>
-                      </span>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -161,11 +151,6 @@ function Portfolio() {
                       We’re a full stack firm that can help you from strategy to
                       launch, and anywhere in between.
                     </p>
-                    <a href="/project-details" className="underline mt-15">
-                      <span className="text main-color sub-title">
-                        View Details <i className="ti-arrow-top-right"></i>
-                      </span>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -196,11 +181,6 @@ function Portfolio() {
                       We’re a full stack firm that can help you from strategy to
                       launch, and anywhere in between.
                     </p>
-                    <a href="/project-details" className="underline mt-15">
-                      <span className="text main-color sub-title">
-                        View Details <i className="ti-arrow-top-right"></i>
-                      </span>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -231,11 +211,6 @@ function Portfolio() {
                       We’re a full stack firm that can help you from strategy to
                       launch, and anywhere in between.
                     </p>
-                    <a href="/project-details" className="underline mt-15">
-                      <span className="text main-color sub-title">
-                        View Details <i className="ti-arrow-top-right"></i>
-                      </span>
-                    </a>
                   </div>
                 </div>
               </div>
