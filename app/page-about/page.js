@@ -9,8 +9,8 @@ import Navbar from '@/components/common/Navbar';
 import Script from 'next/script';
 // import Blog from '@/components/home-main/Blog';
 import Clients from '@/components/common/Clients';
-import Team from '@/components/home-modern-studio/Team';
-import Testimonials from '@/components/home-modern-studio/Testimonials';
+// import Team from '@/components/home-modern-studio/Team';
+// import Testimonials from '@/components/home-modern-studio/Testimonials';
 import Header from '@/components/page-about/Header';
 import Intro from '@/components/page-about/Intro';
 import Numbers from '@/components/page-about/Numbers';
@@ -45,8 +45,8 @@ export default function Home() {
             <Intro />
             <Numbers />
             <Services />
-            <Team />
-            <Testimonials />
+            {/* <Team /> */}
+            {/* <Testimonials /> */}
             <Clients />
             {/* <Blog /> */}
             <Marq2 />
