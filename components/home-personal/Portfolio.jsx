@@ -286,7 +286,7 @@ function Portfolio() {
       <div className="sec-bottom mt-100">
         <div className="main-bg d-flex align-items-center">
           <h6 className="fz-14 fw-400">
-            More than <span className="fw-600"> 200+ companies</span>
+            More than <span className="fw-600"> 100+ companies&nbsp;</span>
             trusted us worldwide
           </h6>
         </div>

@@ -7,14 +7,14 @@ function Contact() {
         <div className="row">
           <div className="col-lg-4 valign">
             <div className="sec-head info-box full-width md-mb80">
-              <div className="phone fz-30 fw-600 underline main-color">
+              {/* <div className="phone fz-30 fw-600 underline main-color">
                 <a href="#0">+92 332 9262125</a>
-              </div>
+              </div> */}
               {/* <div className="morinfo mt-50 pb-30 bord-thin-bottom">
                 <h6 className="mb-15">Address</h6>
                 <p>Besòs 1, 08174 Sant Cugat del Vallès, Barcelona</p>
               </div> */}
-              <div className="morinfo mt-30 pb-30 bord-thin-bottom">
+              <div className="morinfo pb-30 bord-thin-bottom">
                 <h6 className="mb-15">Email</h6>
                 <p>yawarshah.dev@gmail.com</p>
               </div>

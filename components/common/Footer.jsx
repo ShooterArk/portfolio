@@ -19,9 +19,9 @@ function Footer() {
               <h6 className="mt-30 mb-15">
                 <a href="#0">yawarshah.dev@gmail.com</a>
               </h6>
-              <a href="#0" className="underline">
+              {/* <a href="#0" className="underline">
                 <span className="fz-22 main-color">+92 332 9262125</span>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="col-lg-2">
