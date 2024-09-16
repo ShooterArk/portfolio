@@ -1,39 +1,39 @@
-'use client';
-import React, { useEffect } from 'react';
+"use client";
+import React, { useEffect } from "react";
 
 function Portfolio() {
   function Playing() {
     gsap.registerPlugin(ScrollTrigger);
 
-    const cards = document.querySelectorAll('.cards .card-item');
+    const cards = document.querySelectorAll(".cards .card-item");
     let stickDistance = 0;
 
     const firstCardST = ScrollTrigger.create({
       trigger: cards[0],
-      start: 'center center',
+      start: "center center",
     });
 
     const lastCardST = ScrollTrigger.create({
       trigger: cards[cards.length - 1],
-      start: 'bottom bottom',
+      start: "bottom bottom",
     });
 
     cards.forEach((card, index) => {
       const scale = 1 - (cards.length - index) * 0.025;
       const scaleDown = gsap.to(card, {
         scale: scale,
-        transformOrigin: '50% ' + (lastCardST.start + stickDistance),
+        transformOrigin: "50% " + (lastCardST.start + stickDistance),
       });
 
       ScrollTrigger.create({
         trigger: card,
-        start: 'center center',
+        start: "center center",
         end: () => lastCardST.start + stickDistance,
         pin: true,
         pinSpacing: false,
-        ease: 'none',
+        ease: "none",
         animation: scaleDown,
-        toggleActions: 'restart none none reverse',
+        toggleActions: "restart none none reverse",
       });
     });
   }
@@ -78,25 +78,40 @@ function Portfolio() {
                   <div>
                     <div className="mb-15">
                       <a href="/portfolio-grid" className="tag">
-                        Figma
+                        UI/UX
                       </a>
                       <a href="/portfolio-grid" className="tag">
-                        Web Design
+                        React
+                      </a>
+                      <a href="/portfolio-grid" className="tag">
+                        Web3 Integration
+                      </a>
+                      <a href="/portfolio-grid" className="tag">
+                        Decentralized Finance (DeFi)
                       </a>
                     </div>
                     <h4>Contrax</h4>
                   </div>
                   <div>
                     <p>
-                      We&apos;re a full stack firm that can help you from strategy to
-                      launch, and anywhere in between.
+                      I was responsible for the front-end development of
+                      Contrax, where I implemented the UI/UX using React to
+                      create a seamless and intuitive user experience.
+                      Additionally, I integrated Web3 functionality to ensure
+                      smooth blockchain interact ions tailored for decentralized
+                      finance (DeFi) users. This work emphasizes the importance
+                      of combining cutting-edge technology with user-centered
+                      design to deliver scalable and efficient solutions.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-7">
                 <div className="img">
-                  <img src="/assets/imgs/company-images/Contrax.png" alt="contrax" />
+                  <img
+                    src="/assets/imgs/company-images/Contrax.png"
+                    alt="contrax"
+                  />
                 </div>
               </div>
             </div>
@@ -108,18 +123,27 @@ function Portfolio() {
                   <div>
                     <div className="mb-15">
                       <a href="/portfolio-grid" className="tag">
-                        Figma
+                        React Native
                       </a>
                       <a href="/portfolio-grid" className="tag">
-                        Web Design
+                        Figma to React Native
+                      </a>
+                      <a href="/portfolio-grid" className="tag">
+                        Real-Time Data Integration
                       </a>
                     </div>
-                    <h4>HIT</h4>
+                    <h4>HIT AI</h4>
                   </div>
                   <div>
                     <p>
-                      We&apos;re a full stack firm that can help you from strategy to
-                      launch, and anywhere in between.
+                      For the HitAI hybrid mobile app, I was responsible for
+                      translating Figma designs into precise React Native
+                      layouts, ensuring a cohesive and responsive user
+                      interface. I also managed complex API integrations to
+                      display real-time data in a clear and user-friendly
+                      manner. This work required balancing efficient data
+                      handling with delivering an intuitive and scalable mobile
+                      experience, tailored to meet the dynamic needs of users.
                     </p>
                   </div>
                 </div>
@@ -148,15 +172,18 @@ function Portfolio() {
                   </div>
                   <div>
                     <p>
-                      We&apos;re a full stack firm that can help you from strategy to
-                      launch, and anywhere in between.
+                      We&apos;re a full stack firm that can help you from
+                      strategy to launch, and anywhere in between.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-7">
                 <div className="img">
-                  <img src="/assets/imgs/company-images/squadra.png" alt="squadra" />
+                  <img
+                    src="/assets/imgs/company-images/squadra.png"
+                    alt="squadra"
+                  />
                 </div>
               </div>
             </div>
@@ -178,15 +205,18 @@ function Portfolio() {
                   </div>
                   <div>
                     <p>
-                      We&apos;re a full stack firm that can help you from strategy to
-                      launch, and anywhere in between.
+                      We&apos;re a full stack firm that can help you from
+                      strategy to launch, and anywhere in between.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-7">
                 <div className="img">
-                  <img src="/assets/imgs/company-images/datacakes.png" alt="datacakes" />
+                  <img
+                    src="/assets/imgs/company-images/datacakes.png"
+                    alt="datacakes"
+                  />
                 </div>
               </div>
             </div>
@@ -208,8 +238,8 @@ function Portfolio() {
                   </div>
                   <div>
                     <p>
-                      We&apos;re a full stack firm that can help you from strategy to
-                      launch, and anywhere in between.
+                      We&apos;re a full stack firm that can help you from
+                      strategy to launch, and anywhere in between.
                     </p>
                   </div>
                 </div>
@@ -238,15 +268,18 @@ function Portfolio() {
                   </div>
                   <div>
                     <p>
-                      We&apos;re a full stack firm that can help you from strategy to
-                      launch, and anywhere in between.
+                      We&apos;re a full stack firm that can help you from
+                      strategy to launch, and anywhere in between.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-7">
                 <div className="img">
-                  <img src="/assets/imgs/company-images/kleta.png" alt="kleta" />
+                  <img
+                    src="/assets/imgs/company-images/kleta.png"
+                    alt="kleta"
+                  />
                 </div>
               </div>
             </div>
@@ -268,15 +301,18 @@ function Portfolio() {
                   </div>
                   <div>
                     <p>
-                      We&apos;re a full stack firm that can help you from strategy to
-                      launch, and anywhere in between.
+                      We&apos;re a full stack firm that can help you from
+                      strategy to launch, and anywhere in between.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-7">
                 <div className="img">
-                  <img src="/assets/imgs/company-images/narchie.png" alt="narchie" />
+                  <img
+                    src="/assets/imgs/company-images/narchie.png"
+                    alt="narchie"
+                  />
                 </div>
               </div>
             </div>
@@ -286,7 +322,7 @@ function Portfolio() {
       <div className="sec-bottom mt-100">
         <div className="main-bg d-flex align-items-center">
           <h6 className="fz-14 fw-400">
-            More than <span className="fw-600"> 100+ companies&nbsp;</span>
+            More than <span className="fw-600"> 20+ companies&nbsp;</span>
             trusted us worldwide
           </h6>
         </div>

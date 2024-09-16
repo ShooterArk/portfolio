@@ -4,7 +4,7 @@ function Marq() {
   const items = [
     'Web Developement',
     'Frontend Development',
-    'Web Desgin',
+    'Web Design',
     'Mobile Development'
   ];
   return (

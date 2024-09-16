@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 function Clients() {
   const swiperOptions = {
@@ -59,6 +60,12 @@ function Clients() {
             id="content-carousel-container-unq-clients"
             className="swiper-container"
             data-swiper="container"
+            loop={true}
+            autoplay={{
+              delay: 500,
+              disableOnInteraction: false,
+            }}
+            modules={[Autoplay]}
           >
             <SwiperSlide>
               <div className="item">
@@ -121,7 +128,7 @@ function Clients() {
         <div className="sec-bottom mt-100">
           <div className="main-bg d-flex align-items-center">
             <h6 className="fz-14 fw-400">
-              More than <span className="fw-400"> 100+ companies&nbsp;</span>
+              More than <span className="fw-400"> 20+ companies&nbsp;</span>
               trusted us worldwide
             </h6>
           </div>

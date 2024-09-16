@@ -29,10 +29,10 @@ function Header() {
           <div className="col-lg-7">
             <div className="caption">
               <h6 className="mb-15">
-                <span className="icon-img-30 mr-10">
+                {/* <span className="icon-img-30 mr-10">
                   <img src="/assets/imgs/header/hi.png" alt="" />
-                </span>{' '}
-                Hey there!
+                </span>{' '} */}
+                <span>👋</span>{' '}Hey there!
               </h6>
               <h1 className="fw-700 mb-10">
                 I&apos;m Syed <span className="main-color">Yawar Shah</span>

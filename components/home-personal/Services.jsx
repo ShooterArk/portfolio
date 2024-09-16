@@ -7,7 +7,7 @@ function Services() {
         <div className="sec-head mb-80">
           <div className="d-flex align-items-center">
             <div>
-              <span className="sub-title main-color mb-5">My Specialize</span>
+              <span className="sub-title main-color mb-5">My Expertise</span>
               <h3 className="fw-600 fz-50 text-u d-rotate wow">
                 <span className="rotate-text">
                   Featured <span className="fw-200">Services.</span>
@@ -34,8 +34,9 @@ function Services() {
               <h5>Front-End Development</h5>
               <div className="text mt-40">
                 <div className="mb-10">
+                  <span className="tag">React</span>
+                  <span className="tag">Responsive Design</span>
                   <span className="tag">UI/UX</span>
-                  <span className="tag">Development</span>
                 </div>
                 <p>
                   Crafting intuitive, responsive, and high-performing user interfaces using cutting-edge technologies like React and Next.js. I focus on delivering seamless user experiences that keep your audience engaged.
@@ -54,8 +55,9 @@ function Services() {
               <h5>Hybrid Mobile App Development</h5>
               <div className="text mt-40">
                 <div className="mb-10">
-                  <span className="tag">UI/UX</span>
-                  <span className="tag">Development</span>
+                  <span className="tag">React Native</span>
+                  <span className="tag">Cross-Platform Apps</span>
+                  <span className="tag">Mobile UI/UX</span>
                 </div>
                 <p>
                   Developing cross-platform mobile applications using React Native that deliver native-like performance and aesthetics on both iOS and Android. Perfect for startups aiming to reach a broader audience quickly and efficiently.
@@ -74,8 +76,9 @@ function Services() {
               <h5>Full-Stack Development</h5>
               <div className="text mt-40">
                 <div className="mb-10">
-                  <span className="tag">UI/UX</span>
-                  <span className="tag">Development</span>
+                  <span className="tag">MERN Stack</span>
+                  <span className="tag">Node.js</span>
+                  <span className="tag">RESTful APIs</span>
                 </div>
                 <p>
                   Building scalable, robust backends with Node.js, Firebase, or Supabase and integrating them seamlessly with a high-performing front-end. From concept to deployment, I manage the entire development process to ensure your product is built for success.
