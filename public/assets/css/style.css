@@ -2035,6 +2035,10 @@ img.left {
 .icon-img-144{
   width: 165px;
 }
+.px-10{
+  padding-left: 40px;
+  padding-right: 60px;
+}
 
 /*-------------------------------------------------------
            Z-index
@@ -7169,7 +7173,7 @@ footer.clean-footer.crev .circle-blur {
   padding-top: 25px;
 }
 
-.swiper-arrow-control .swiper-button-next,
+.swiper-arrow-control ,
 .swiper-arrow-control .swiper-button-prev {
   position: static;
   width: 50px;
@@ -7183,6 +7187,7 @@ footer.clean-footer.crev .circle-blur {
 .swiper-arrow-control .swiper-button-next:after,
 .swiper-arrow-control .swiper-button-prev:after {
   display: none;
+  color: white;
 }
 
 .swiper-arrow-control .swiper-button-next {
