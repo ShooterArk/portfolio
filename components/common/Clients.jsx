@@ -10,6 +10,13 @@ function Clients() {
     spaceBetween: 40,
     centeredSlides: true,
     breakpoints: {
+      // when window width is >= 400px
+      400: {
+        loop: true,
+        slidesPerView: 2,
+        spaceBetween: 80,
+        centeredSlides: false,
+      },
       // when window width is >= 640px
       640: {
         loop: true,
@@ -29,7 +36,7 @@ function Clients() {
         loop: true,
         slidesPerView: 5,
         spaceBetween: 40,
-        centeredSlides: true,
+        centeredSlides: false,
       },
     },
   };
@@ -56,35 +63,56 @@ function Clients() {
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img src="/assets/imgs/brands/c1.svg" alt="" />
+                  <img src="/assets/imgs/svgs/narchie.svg" alt="narchie" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img src="/assets/imgs/brands/c2.svg" alt="" />
+                  <img src="/assets/imgs/svgs/hit.svg" alt="hit" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img src="/assets/imgs/brands/c3.svg" alt="" />
+                  <img src="/assets/imgs/svgs/datacakes-ai.svg" alt="datacakes" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img src="/assets/imgs/brands/c4.svg" alt="" />
+                  <img src="/assets/imgs/svgs/kleta.svg" alt="kleta" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img src="/assets/imgs/brands/c5.svg" alt="" />
+                  <img src="/assets/imgs/svgs/contrax.svg" alt="contrax" />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="item">
+                <div className="img icon-img-100">
+                  <img src="/assets/imgs/svgs/go-farm-yourself.svg" alt="go-farm-yourself" />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="item">
+                <div className="img icon-img-100">
+                  <img src="/assets/imgs/svgs/squadra.svg" alt="squadra" />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="item">
+                <div className="img icon-img-100">
+                  <img src="/assets/imgs/svgs/welltime.svg" alt="welltime" />
                 </div>
               </div>
             </SwiperSlide>
