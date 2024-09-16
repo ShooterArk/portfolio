@@ -2012,6 +2012,10 @@ img.left {
   width: 80px;
 }
 
+.icon-img-85 {
+  width: 85px;
+}
+
 .icon-img-90 {
   width: 90px;
 }
@@ -2022,6 +2026,14 @@ img.left {
 
 .icon-img-120 {
   width: 120px;
+}
+
+.icon-img-130{
+  width: 130px;
+
+}
+.icon-img-144{
+  width: 165px;
 }
 
 /*-------------------------------------------------------
@@ -7677,6 +7689,7 @@ footer.clean-footer.crev .circle-blur {
 
 .testim-modern .item .cont {
   padding: 40px;
+  min-height: 365px;
 }
 
 .testim-modern .item .cont p {
