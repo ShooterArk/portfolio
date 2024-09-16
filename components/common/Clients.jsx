@@ -1,6 +1,9 @@
 'use client';
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
 
 function Clients() {
   const swiperOptions = {
@@ -39,6 +42,11 @@ function Clients() {
         centeredSlides: false,
       },
     },
+    modules: [Navigation],
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
   };
   return (
     <section className="clients-carso in-circle section-padding">
@@ -57,7 +65,7 @@ function Clients() {
           <Swiper
             {...swiperOptions}
             id="content-carousel-container-unq-clients"
-            className="swiper-container"
+            className="swiper-container px-10"
             data-swiper="container"
           >
             <SwiperSlide>
@@ -116,6 +124,8 @@ function Clients() {
                 </div>
               </div>
             </SwiperSlide>
+            <div className="swiper-button-prev" style={{color: 'white'}}></div>
+            <div className="swiper-button-next" style={{color: 'white'}}  ></div>
           </Swiper>
         </div>
         <div className="sec-bottom mt-100">
