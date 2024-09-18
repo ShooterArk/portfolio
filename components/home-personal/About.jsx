@@ -63,6 +63,12 @@ function About() {
                   <span className="icon">
                     <img src="/assets/imgs/tech/ts.svg" alt="" />
                   </span>
+                  <span className="icon">
+                    <img src="/assets/imgs/tech/nextjs2.svg" alt="" />
+                  </span>
+                  <span className="icon">
+                    <img src="/assets/imgs/tech/cypress.svg" alt="" />
+                  </span>
                 </div>
 
                 <div className="numbers mt-50">

@@ -3966,8 +3966,8 @@ body.loaded {
   -webkit-transform: rotate(15deg);
   -ms-transform: rotate(15deg);
   transform: rotate(15deg);
-  /* -webkit-filter: blur(2px);
-  filter: blur(2px); */
+  /* -webkit-filter: blur(1px);
+  filter: blur(1px); */
   z-index: -1;
 }
 
@@ -3985,6 +3985,24 @@ body.loaded {
   -webkit-transform: rotate(-10deg);
   -ms-transform: rotate(-10deg);
   transform: rotate(-10deg);
+}
+
+.about-author .profile-img .icon:nth-of-type(5) {
+  top: 75px;
+  right: 120px;
+  -webkit-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+.about-author .profile-img .icon:nth-of-type(6) {
+  bottom: 75px;
+  left: 460px;
+  -webkit-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
 }
 
 .about-author .img {
