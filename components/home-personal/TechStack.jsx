@@ -27,6 +27,16 @@ function TechStack() {
             <div className="item mb-30">
               <div className="item mb-30">
                 <div className="img">
+                  <img src="/assets/imgs/tech/nextjs2.svg" alt="" />
+                </div>
+                <h6 className="fz-18">NextJS</h6>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-2 col-md-4 col-6">
+            <div className="item mb-30">
+              <div className="item mb-30">
+                <div className="img">
                   <img src="/assets/imgs/tech/storybook.svg" alt="" />
                 </div>
                 <h6 className="fz-18">StoryBook</h6>
@@ -90,16 +100,6 @@ function TechStack() {
                   <img src="/assets/imgs/tech/nodejs.svg" alt="" />
                 </div>
                 <h6 className="fz-18">NodeJS</h6>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-2 col-md-4 col-6">
-            <div className="item mb-30">
-              <div className="item mb-30">
-                <div className="img">
-                  <img src="/assets/imgs/tech/nextjs2.svg" alt="" />
-                </div>
-                <h6 className="fz-18">NextJS</h6>
               </div>
             </div>
           </div>
