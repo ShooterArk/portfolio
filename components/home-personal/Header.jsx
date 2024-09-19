@@ -37,12 +37,12 @@ function Header() {
               <h1 className="fw-700 mb-10">
                 I&apos;m Syed <span className="main-color">Yawar Shah</span>
               </h1>
-              <h3>A passionate frontend developer</h3>
+              <h3>A passionate Front-end developer</h3>
               <div className="row">
                 <div className="col-lg-9">
                   <div className="text mt-30">
                     <p>
-                      Dedicated to bringing your digital ideas to life. Whether you're a startup founder looking for a reliable developer or someone with an innovative idea ready to take the digital world by storm, I'm here to help you turn your vision into reality.
+                    Dedicated to bringing your digital ideas to life. Whether you're a startup founder looking for a reliable developer or someone with an innovative idea ready to take the digital world by storm, I'm here to help you turn your vision into reality.
                     </p>
                   </div>
                   <div className="d-flex align-items-center mt-60">
@@ -50,7 +50,7 @@ function Header() {
                       href="/page-contact"
                       className="butn butn-md butn-bord radius-30"
                     >
-                      <span className="text">Contact Me</span>
+                      <span className="text">Get in touch</span>
                     </a>
                     <div className="icon-img-60 ml-20">
                       <img

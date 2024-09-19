@@ -5,7 +5,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 function Clients() {
   const swiperOptions = {
-    speed: 600,
+    speed: 1000,
     loop: true,
     slidesPerView: 5,
     spaceBetween: 40,

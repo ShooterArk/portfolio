@@ -38,7 +38,7 @@ function Newsletter() {
                         id="form_email"
                         type="email"
                         name="email"
-                        placeholder="Email"
+                        placeholder="Enter your email to start transforming your digital product"
                         required="required"
                       />
                     </div>
@@ -50,7 +50,7 @@ function Newsletter() {
                         type="submit"
                         className="butn butn-full butn-bord radius-30"
                       >
-                        <span className="text">Let&lsquo;s Talk</span>
+                        <span className="text">Get Started</span>
                       </button>
                     </div>
                   </div>

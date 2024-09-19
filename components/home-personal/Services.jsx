@@ -7,7 +7,7 @@ function Services() {
         <div className="sec-head mb-80">
           <div className="d-flex align-items-center">
             <div>
-              <span className="sub-title main-color mb-5">My Expertise</span>
+              <span className="sub-title main-color mb-5">My specialized </span>
               <h3 className="fw-600 fz-50 text-u d-rotate wow">
                 <span className="rotate-text">
                   Featured <span className="fw-200">Services.</span>
@@ -31,7 +31,7 @@ function Services() {
               <div className="icon-img-60 opacity-5 mb-40">
                 <img src="/assets/imgs/serv-icons/3.png" alt="" />
               </div>
-              <h5>Front-End Development</h5>
+              <h5>Front-end Development</h5>
               <div className="text mt-40">
                 <div className="mb-10">
                   <span className="tag">React</span>

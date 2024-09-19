@@ -33,7 +33,7 @@ function About() {
                   {/* <span className="fw-200">
                     Front-End and Full-Stack Development
                   </span> */}
-                  Front-End and Full-Stack Development
+                  Front-end and Full-Stack Development
                 </h4>
                 <p>
                   With over a decade of experience in the tech industry, I

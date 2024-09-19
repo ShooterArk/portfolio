@@ -73,7 +73,7 @@ function Testimonials() {
                   <h6 className="sub-title mb-15">Design Quality</h6>
                   <div className="text">
                     <p>
-                      “Yawar’s team was communicative and willing to take responsibility for any issues that came up during development. We expect to work with them in the future given they are now the most knowledgeable developers on our application as they transition it over to us.”
+                      “Yawar’s dedication and technical expertise were impressive. His ability to tackle complex challenges showcased his exceptional IT skills. Yawar’s contributions were invaluable, and I look forward to working with him again in the future. Thank you, Yawar, for ensuring the success of this project. Well done!”
                     </p>
                   </div>
                 </div>
