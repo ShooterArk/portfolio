@@ -1,8 +1,14 @@
 'use client';
-import React, { useEffect, useLayoutEffect } from 'react';
+import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import loadBackgroudImages from '@/common/loadBackgroudImages';
+import { PopupWidget } from "react-calendly";
+
 function Header() {
+  const [rootElement, setRootElement] = useState(null);
+  const [isCalendlyOpen, setIsCalendlyOpen] = useState(false); // State to control modal visibility
+  const rootRef = useRef(null);
+
   useLayoutEffect(() => {
     const tl = gsap.timeline();
     tl.fromTo('.header', { y: 200 }, { y: 0 }, '+=2.5');
@@ -15,12 +21,20 @@ function Header() {
 
     return () => tl.kill();
   }, []);
+
   useEffect(() => {
     loadBackgroudImages();
+    setRootElement(rootRef.current);
   }, []);
+
+  const handleOpenCalendly = () => {
+    setIsCalendlyOpen(true); 
+  };
+
   return (
     <div
-      className="header header-personal valign bg-img"
+      ref={rootRef} 
+      className="header header-personal valign bg-img no-scrollbar"
       data-background="/assets/imgs/hero-image.png"
       data-overlay-dark="2"
     >
@@ -29,9 +43,6 @@ function Header() {
           <div className="col-lg-7">
             <div className="caption">
               <h6 className="mb-15">
-                {/* <span className="icon-img-30 mr-10">
-                  <img src="/assets/imgs/header/hi.png" alt="" />
-                </span>{' '} */}
                 <span>👋</span>{' '}Hey there!
               </h6>
               <h1 className="fw-700 mb-10">
@@ -45,13 +56,14 @@ function Header() {
                     Dedicated to bringing your digital ideas to life. Whether you're a startup founder looking for a reliable developer or someone with an innovative idea ready to take the digital world by storm, I'm here to help you turn your vision into reality.
                     </p>
                   </div>
-                  <div className="d-flex align-items-center mt-60">
-                    <a
-                      href="/page-contact"
+                  
+                  <div className="d-flex align-items-center mt-60 no-scrollbar">
+                    <button
+                      onClick={handleOpenCalendly} 
                       className="butn butn-md butn-bord radius-30"
                     >
-                      <span className="text">Get in touch</span>
-                    </a>
+                      Get in touch
+                    </button>
                     <div className="icon-img-60 ml-20">
                       <img
                         src="/assets/imgs/icon-img/arrow-down-big.png"
@@ -79,6 +91,15 @@ function Header() {
           </div> */}
         </div>
       </div>
+
+      
+      {isCalendlyOpen && rootElement && (
+        <PopupWidget
+          url="https://calendly.com/yawar-shah/30min?hide_gdpr_banner=1&background_color=1a1a1a&text_color=ffffff&primary_color=fd5b38"
+          rootElement={rootElement}
+          onClose={() => setIsCalendlyOpen(false)} 
+        />
+      )}
     </div>
   );
 }

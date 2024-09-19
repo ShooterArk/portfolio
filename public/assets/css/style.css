@@ -4715,7 +4715,9 @@ body.loaded {
   left: 180px;
   width: 150px;
 }
-
+.no-scrollbar{
+  scrollbar-width: none;
+}
 .page-faqs .img3 {
   position: absolute;
   top: 50%;
