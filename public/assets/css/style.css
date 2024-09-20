@@ -8479,6 +8479,25 @@ footer.clean-footer.crev .circle-blur {
   right: 75px !important;
 }
 @media screen and (max-width: 440px) {
+  .icon-img-85 {
+    width: 50px;
+  }
+
+  .icon-img-130{
+    width: 50px;
+  
+  }
+  .icon-img-144{
+    width: 60px;
+  }
+
+  .clients-carso.in-circle .item {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+   
+  }
+  
   .calendly-overlay .calendly-popup-close {
     top: 140px !important;
     right: 40px !important;
