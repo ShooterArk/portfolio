@@ -9,17 +9,14 @@ import Navbar from '@/components/common/Navbar';
 import Script from 'next/script';
 import Header from '@/components/home-personal/Header';
 import Clients from '@/components/common/Clients';
-
-import Blog from '@/components/home-digital-agency/Blog';
-
 import Testimonials from '@/components/home-personal/Testimonials';
 import Marq from '@/components/home-personal/Marq';
 import About from '@/components/home-personal/About';
 import Services from '@/components/home-personal/Services';
-import Skills from '@/components/home-personal/Skills';
 import Portfolio from '@/components/home-personal/Portfolio';
 import TechStack from '@/components/home-personal/TechStack';
 import Newsletter from '@/components/home-personal/NewsLetter';
+import { RootRefProvider } from '@/components/common/RootRefContext';
 
 export const metadata = {
   title: 'webfolio',
@@ -37,6 +34,7 @@ export const metadata = {
 
 export default function Home() {
   return (
+    <RootRefProvider>
     <body className="home-personal">
       <LoadingScreen />
       <Cursor />
@@ -48,10 +46,13 @@ export default function Home() {
           <main className="main-bg o-hidden">
             <Header />
             <Marq />
-            <About />
-            <Services />
+            <div id="about"> 
+              <About />
+            </div>
+            <div id="services"> 
+              <Services />
+            </div>
             <Portfolio />
-            {/* <Skills /> */}
             <TechStack />
             <Testimonials />
             <Clients />
@@ -106,5 +107,6 @@ export default function Home() {
 
       <Script src="/assets/js/scripts.js"></Script>
     </body>
+    </RootRefProvider>
   );
 }

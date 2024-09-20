@@ -1,18 +1,32 @@
 'use client';
-import React, { useEffect } from 'react';
+import React, { useContext, useEffect, useRef, useState } from 'react';
+import CalendlyPopup from '../home-personal/Calendly';
+import { RootRefContext } from './RootRefContext';
 
 function Navbar() {
+  const [rootElement, setRootElement] = useState(null);
+  const rootRef = useContext(RootRefContext); 
+  useEffect(() => {
+    setRootElement(rootRef.current); 
+  }, []);
+
   function handleScroll() {
     const bodyScroll = window.scrollY;
     const navbar = document.querySelector('.navbar');
+    
 
     if (bodyScroll > 300) navbar.classList.add('nav-scroll');
     else navbar.classList.remove('nav-scroll');
   }
+
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+  useEffect(() => {
+    setRootElement(rootRef.current);
+  }, []);
+
   function handleDropdownMouseMove(event) {
     event.currentTarget.querySelector('.dropdown-menu').classList.add('show');
   }
@@ -41,7 +55,7 @@ function Navbar() {
   }
   return (
     <nav className="navbar navbar-expand-lg bord blur" style={{minHeight: 60}}>
-      <div className="container o-hidden">
+      <div className="container o-hidden" >
         <a className="logo icon-img-100" href="/">
           <img src="/assets/imgs/Yawar-logo.png" alt="logo" />
         </a>
@@ -56,9 +70,10 @@ function Navbar() {
           aria-label="Toggle navigation"
           onClick={handleToggleNav}
         >
-          <span className="icon-bar">
-            <i className="fas fa-bars"></i>
-          </span>
+          
+          <div className="">
+        <CalendlyPopup text="Let&apos;s contact" className="butn butn-sm butn-bg main-colorbg radius-5" rootElement={rootElement} />
+        </div>
         </button>
 
         <div
@@ -273,12 +288,13 @@ function Navbar() {
         </div>
 
         <div className="contact-button">
-          <a
+        <CalendlyPopup text="Let&apos;s contact" className="butn butn-sm butn-bg main-colorbg radius-5" rootElement={rootElement} />
+          {/* <a
             href="/page-contact"
             className="butn butn-sm butn-bg main-colorbg radius-5"
           >
             <span className="text">Let&apos;s contact</span>
-          </a>
+          </a> */}
         </div>
       </div>
     </nav>

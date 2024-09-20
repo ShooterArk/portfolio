@@ -1,8 +1,20 @@
-import React from 'react';
+"use client"
+import React, { useEffect, useRef, useState } from 'react';
+import CalendlyPopup from '../home-personal/Calendly';
+import { Link } from 'react-scroll'; 
 
 function Footer() {
+  const [rootElement, setRootElement] = useState(null);
+  const rootRef = useRef(null); 
+
+  
+  useEffect(() => {
+    setRootElement(rootRef.current);
+  }, []);
+
+
   return (
-    <footer className="clean-footer crev">
+    <footer className="clean-footer crev" ref={rootRef}>
       <div className="container pb-40 pt-40 ontop">
         <div className="row justify-content-between" style={{marginBottom: '5%'}}>
           <div className="col-lg-2">
@@ -24,26 +36,30 @@ function Footer() {
               </a> */}
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 ">
             <div className="column md-mb50">
               <h6 className="sub-title mb-30">Useful Links</h6>
               <ul className="rest fz-14 opacity-7">
                 <li className="mb-15">
-                  <a href="/page-about">About</a>
+                  <Link to="about" smooth={true} duration={500}>About</Link> 
                 </li>
                 <li className="mb-15">
-                  <a href="/page-services">Services</a>
+                  <Link to="services" smooth={true} duration={500}>Services</Link> 
                 </li>
-                <li className="mb-15">
-                  <a href="/blog-grid-sidebar">Blog</a>
-                </li>
+              
                 <li>
-                  <a href="/page-contact">Contact</a>
+                    <CalendlyPopup text="Contact" className="bg-transparent text-white border-0"  rootElement={rootElement}/>
+
+                </li>
+                <li className="hover-this cursor-pointer mt-10">
+                  <a href="#0" >
+                    <i className="fab fa-linkedin-in"></i>
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="col-lg-3">
+          {/* <div className="col-lg-3">
             <div className="column subscribe-minimal">
               <h6 className="sub-title mb-30">Newsletter</h6>
               <div className="form-group mb-40">
@@ -63,11 +79,7 @@ function Footer() {
                     <i className="fab fa-dribbble"></i>
                   </a>
                 </li>
-                <li className="hover-this cursor-pointer ml-10">
-                  <a href="#0" className="hover-anim">
-                    <i className="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
+               
                 <li className="hover-this cursor-pointer ml-10">
                   <a href="#0" className="hover-anim">
                     <i className="fab fa-instagram"></i>
@@ -75,7 +87,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="circle-blur">
