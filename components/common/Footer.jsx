@@ -41,20 +41,19 @@ function Footer() {
               <h6 className="sub-title mb-30">Useful Links</h6>
               <ul className="rest fz-14 opacity-7">
                 <li className="mb-15">
-                  <Link to="about" smooth={true} duration={500}>About</Link> 
+                  <Link to="about" className='cursor-pointer' smooth={true} duration={500}>About</Link> 
                 </li>
                 <li className="mb-15">
-                  <Link to="services" smooth={true} duration={500}>Services</Link> 
+                  <Link to="services" className='cursor-pointer' smooth={true} duration={500}>Services</Link> 
                 </li>
               
                 <li>
                     <CalendlyPopup text="Contact" className="bg-transparent text-white border-0"  rootElement={rootElement}/>
-
                 </li>
                 <li className="hover-this cursor-pointer mt-10">
-                  <a href="#0" >
-                    <i className="fab fa-linkedin-in"></i>
-                  </a>
+                <a href="https://www.linkedin.com/in/yawar-shah-66925941" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-linkedin-in"></i>
+                </a>
                 </li>
               </ul>
             </div>

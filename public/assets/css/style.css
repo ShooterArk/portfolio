@@ -8299,11 +8299,15 @@ footer.clean-footer.crev .circle-blur {
     background-position: 78%;
   }
   .about-author .profile-img .icon:nth-of-type(4) {
-    bottom: -125px;
+    bottom: calc(-50px - (100vw - 600px) / -5); 
   }
   .about-author .profile-img .icon:nth-of-type(3) {
-    bottom: -169px;
+    bottom: calc(-169px - (100vw - 700px) / -5); 
     left: -21px;
+  }
+  .about-author .profile-img .icon:nth-of-type(6) {
+    bottom: calc(-19px - (100vw - 700px) / -5); 
+    left: 460px;
   }
   .modern-slider .gallery-text {
     width: 100%;
@@ -8470,6 +8474,30 @@ footer.clean-footer.crev .circle-blur {
   }
 }
 
+.calendly-overlay .calendly-popup-close {
+  top: 72px !important;
+  right: 75px !important;
+}
+@media screen and (max-width: 440px) {
+  .calendly-overlay .calendly-popup-close {
+    top: 140px !important;
+    right: 40px !important;
+  }
+  .about-author .profile-img .icon:nth-of-type(4) {
+    bottom: calc(-183px - (100vw - 417px) / -1); 
+  }
+
+  .about-author .profile-img .icon:nth-of-type(3) {
+    bottom: calc(-200px - (100vw - 417px) / -1); 
+    left: -21px;
+  }
+
+  .about-author .profile-img .icon:nth-of-type(6) {
+    bottom: calc(-168px - (100vw - 417px) / -1); 
+    left: 110px;
+}
+
+}
 /* ====================== [ End Responsive ] ====================== */
 .carddx {
   break-inside: avoid;
