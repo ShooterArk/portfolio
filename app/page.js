@@ -19,10 +19,10 @@ import Newsletter from '@/components/home-personal/NewsLetter';
 import { RootRefProvider } from '@/components/common/RootRefContext';
 
 export const metadata = {
-  title: 'webfolio',
+  title: 'Syed Yawar Shah | Front-end Developer | ReactJS, NextJS, NodeJS specialist',
   icons: {
-    icon: '/assets/imgs/favicon.ico',
-    shortcut: '/assets/imgs/favicon.ico',
+    icon: '/assets/imgs/Yawar-logo.png',
+    shortcut: '/assets/imgs/Yawar-logo.png',
     other: generateStylesheetObject([
       '/assets/css/plugins.css',
       '/assets/css/style.css',

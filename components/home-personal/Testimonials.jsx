@@ -1,12 +1,12 @@
-'use client';
-import React from 'react';
-import { Navigation } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
+"use client";
+import React from "react";
+import { Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 function Testimonials() {
   const swiperOptions = {
     modules: [Navigation],
-    slidesPerView: 'auto',
+    slidesPerView: "auto",
 
     spaceBetween: 30,
     loop: true,
@@ -21,13 +21,13 @@ function Testimonials() {
         slidesPerView: 2,
       },
       1024: {
-        slidesPerView: 'auto',
+        slidesPerView: "auto",
       },
     },
 
     navigation: {
-      nextEl: '.testim-modern .swiper-button-next',
-      prevEl: '.testim-modern .swiper-button-prev',
+      nextEl: ".testim-modern .swiper-button-next",
+      prevEl: ".testim-modern .swiper-button-prev",
     },
   };
   return (
@@ -73,15 +73,28 @@ function Testimonials() {
                   <h6 className="sub-title mb-15">Design Quality</h6>
                   <div className="text">
                     <p>
-                      “Yawar’s dedication and technical expertise were impressive. His ability to tackle complex challenges showcased his exceptional IT skills. Yawar’s contributions were invaluable, and I look forward to working with him again in the future. Thank you, Yawar, for ensuring the success of this project. Well done!”
+                      “Yawar’s dedication and technical expertise were
+                      impressive. His ability to tackle complex challenges
+                      showcased his exceptional IT skills. Yawar’s contributions
+                      were invaluable, and I look forward to working with him
+                      again in the future. Thank you, Yawar, for ensuring the
+                      success of this project. Well done!”
                     </p>
                   </div>
                 </div>
                 <div className="info">
                   <div className="d-flex align-items-center">
                     <div>
-                      <div className="img fit-img">
-                        <img src="/assets/imgs/testim/t1.jpg" alt="" />
+                      <div
+                        className="img fit-img main-colorbg"
+                        style={{
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                      >
+                        {/* <img src="/assets/imgs/testim/t1.jpg" alt="" /> */}
+                        <h4>NC</h4>
                       </div>
                     </div>
                     <div className="ml-20">
@@ -100,17 +113,30 @@ function Testimonials() {
                   <h6 className="sub-title mb-15">Design Quality</h6>
                   <div className="text">
                     <p>
-                      “Yawar’s team was communicative and willing to take responsibility for any issues that came up during development. 
-                      We expect to work with them in the future given they are now the most knowledgeable developers on our application as they transition it over to us.
-                      ”
+                      “Yawar’s team was communicative and willing to take
+                      responsibility for any issues that came up during
+                      development. We expect to work with them in the future
+                      given they are now the most knowledgeable developers on
+                      our application as they transition it over to us. ”
                     </p>
                   </div>
                 </div>
                 <div className="info">
                   <div className="d-flex align-items-center">
                     <div>
-                      <div className="img fit-img">
-                        <img src="/assets/imgs/testim/t2.jpg" alt="" />
+                      <div
+                        className="img fit-img main-colorbg"
+                        style={{
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                      >
+                        <img
+                          src="/assets/imgs/svgs/contrax.svg"
+                          style={{ width: 60, height: 23 }}
+                          alt=""
+                        />
                       </div>
                     </div>
                     <div className="ml-20">
@@ -129,15 +155,33 @@ function Testimonials() {
                   <h6 className="sub-title mb-15">Design Quality</h6>
                   <div className="text">
                     <p>
-                      “ Yawar and his team delivered good work on the short engagement, I would work with them again.”
+                      “ Yawar and his team delivered good work on the short
+                      engagement, I would work with them again.”
                     </p>
                   </div>
                 </div>
                 <div className="info">
                   <div className="d-flex align-items-center">
                     <div>
-                      <div className="img fit-img">
-                        <img src="/assets/imgs/testim/t3.jpg" alt="" />
+                      <div
+                        className="img fit-img main-colorbg"
+                        style={{
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                      >
+                        <img
+                          src="/assets/imgs/svgs/go-farm-yourself.svg"
+                          style={{
+                            width: 180,
+                            height: 40,
+                            transform: "translateX(36%)",
+                            clipPath:
+                              "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)",
+                          }}
+                          alt=""
+                        />
                       </div>
                     </div>
                     <div className="ml-20">
@@ -156,15 +200,24 @@ function Testimonials() {
                   <h6 className="sub-title mb-15">Design Quality</h6>
                   <div className="text">
                     <p>
-                      “Once again Yawar has done an amazing job for us on the Frontend Engineering.”
+                      “Once again Yawar has done an amazing job for us on the
+                      Frontend Engineering.”
                     </p>
                   </div>
                 </div>
                 <div className="info">
                   <div className="d-flex align-items-center">
                     <div>
-                      <div className="img fit-img">
-                        <img src="/assets/imgs/testim/t3.jpg" alt="" />
+                    <div
+                        className="img fit-img main-colorbg"
+                        style={{
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                      >
+                        {/* <img src="/assets/imgs/testim/t1.jpg" alt="" /> */}
+                        <h4>MC</h4>
                       </div>
                     </div>
                     <div className="ml-20">
