@@ -86,11 +86,13 @@ function Testimonials() {
                   <div className="d-flex align-items-center">
                     <div>
                       <div
-                        className="img fit-img main-colorbg"
+                        className="img fit-img"
                         style={{
                           display: "flex",
                           justifyContent: "center",
                           alignItems: "center",
+                          border: "1px solid white",
+                          borderRadius: 100,
                         }}
                       >
                         {/* <img src="/assets/imgs/testim/t1.jpg" alt="" /> */}
@@ -125,11 +127,13 @@ function Testimonials() {
                   <div className="d-flex align-items-center">
                     <div>
                       <div
-                        className="img fit-img main-colorbg"
+                        className="img fit-img"
                         style={{
                           display: "flex",
                           justifyContent: "center",
                           alignItems: "center",
+                          border: "1px solid white",
+                          borderRadius: 100,
                         }}
                       >
                         <img
@@ -164,11 +168,13 @@ function Testimonials() {
                   <div className="d-flex align-items-center">
                     <div>
                       <div
-                        className="img fit-img main-colorbg"
+                        className="img fit-img"
                         style={{
                           display: "flex",
                           justifyContent: "center",
                           alignItems: "center",
+                          border: "1px solid white",
+                          borderRadius: 100,
                         }}
                       >
                         <img
@@ -209,11 +215,13 @@ function Testimonials() {
                   <div className="d-flex align-items-center">
                     <div>
                     <div
-                        className="img fit-img main-colorbg"
+                        className="img fit-img"
                         style={{
                           display: "flex",
                           justifyContent: "center",
                           alignItems: "center",
+                          border: "1px solid white",
+                          borderRadius: 100,
                         }}
                       >
                         {/* <img src="/assets/imgs/testim/t1.jpg" alt="" /> */}

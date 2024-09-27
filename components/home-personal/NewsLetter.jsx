@@ -84,7 +84,7 @@ function Newsletter() {
                       <h4 className="mb-30">
                         Thank you for subscribing! 🎉
                       </h4>
-                      <p>You’re now connected with us and ready to receive exclusive insights, expert advice, and practical tips tailored to help your startup thrive in the digital landscape. Stay tuned – exciting content is coming your way!</p>
+                      <p>Welcome to the community. Stay tuned – exciting content is coming your way!</p>
                     </div>
                   </div>
                 </div>
