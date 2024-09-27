@@ -71,15 +71,16 @@ function Footer() {
                   />
                 </li>
                 <li className="rest social-icon d-flex align-items-center mt-20">
-                  {/* <span className="cursor-pointer"> */}
+                  <span className="cursor-pointer">
                   <a
                     href="https://www.linkedin.com/in/yawar-shah-66925941"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="hover-anim"
                   >
                     <i className="fab fa-linkedin-in"></i>
                   </a>
-                  {/* </span> */}
+                  </span>
                 </li>
               </ul>
             </div>
@@ -116,7 +117,7 @@ function Footer() {
         </div>
         <div className="pt-30 pb-30 mt-30 bord-thin-top">
           <div className="text-center">
-            <p className="fz-14">Copyright © 2024</p>
+            <p className="fz-14">© 2024 Syed Yawar Shah. All rights reserved. | yawarshah.com</p>
           </div>
         </div>
       </div>
