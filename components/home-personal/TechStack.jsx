@@ -67,6 +67,16 @@ function TechStack() {
             <div className="item mb-30">
               <div className="item mb-30">
                 <div className="img">
+                  <img src="/assets/imgs/tech/webflow.svg" alt="" />
+                </div>
+                <h6 className="fz-18">Webflow</h6>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-2 col-md-4 col-6">
+            <div className="item mb-30">
+              <div className="item mb-30">
+                <div className="img">
                   <img src="/assets/imgs/tech/cypress.svg" alt="" />
                 </div>
                 <h6 className="fz-18">Cypress</h6>
