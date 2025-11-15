@@ -81,6 +81,50 @@ function Portfolio() {
                         React Native
                       </a>
                       <a href="" className="tag">
+                        Shopify
+                      </a>
+                      <a href="" className="tag">
+                        Firebase
+                      </a>
+                      <a href="" className="tag">
+                        Loyalty Loin
+                      </a>
+                      <a href="" className="tag">
+                        Live drop updates
+                      </a>
+                    </div>
+                    <h4>RSVLTS</h4>
+                  </div>
+                  <div>
+                    <p>
+                      A high-performance React Native application fully 
+                      integrated with the Shopify Storefront API. It delivers 
+                      real-time product drops, live inventory updates, and 
+                      a fast shopping experience optimized for heavy traffic 
+                      events. The entire flow, from product discovery to checkout, works 
+                      with instant sync to Shopify so users always see 
+                      accurate stock levels during live drops.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-7">
+                <div className="img">
+                  <img src="/assets/imgs/company-images/rsvlts.jpg" alt="hit" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card-item sub-bg">
+            <div className="row">
+              <div className="col-lg-5">
+                <div className="cont">
+                  <div>
+                    <div className="mb-15">
+                      <a href="" className="tag">
+                        React Native
+                      </a>
+                      <a href="" className="tag">
                         Figma to React Native
                       </a>
                       <a href="" className="tag">
