@@ -17,11 +17,11 @@ function LoadingScreen() {
           opacity: 0,
         });
         tl.to(svg, {
-          duration: 0.5,
+          duration: 0.2,
           attr: { d: curve },
           ease: 'power2.easeIn',
         }).to(svg, {
-          duration: 0.5,
+          duration: 0.2,
           attr: { d: flat },
           ease: 'power2.easeOut',
         });
@@ -30,7 +30,7 @@ function LoadingScreen() {
         tl.from('header', { y: 200 }, '-=1.5');
         tl.from(
           'header .container',
-          { y: 40, opacity: 0, delay: 0.3 },
+          { y: 40, opacity: 0, delay: 0.1 },
           '-=1.5'
         );
       }
